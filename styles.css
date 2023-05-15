@@ -1,0 +1,59 @@
+/* Create text-indent */
+div.a
+{
+    text-indent: 30px;
+}
+
+/* Create greater text-indent */
+div.b
+{
+    text-indent: 50px;
+}
+
+/* Set font */
+.aboutMeFont
+{
+    font-family: verdana;
+}
+
+/* Set font and font size and border color */
+.title
+{
+    font-family: lucida;
+    font-size: 50px;
+    border: 3px solid rgb(50, 158, 140);
+}
+
+/* Set margins parameters */
+.margins
+{
+    margin: 10px;
+    padding: 15px;
+}
+
+/* Set buttons bachground color */
+.buttonsColor
+{
+    background-color: rgb(50, 158, 140);
+}
+
+/*https://www.w3schools.com/howto/howto_css_image_center.asp*/
+/* Set the image to be the center of the page */
+.center
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+/* https://azmind.com/bootstrap-carousel-change-arrow-colors/ */
+/* Style the indicators for the carousel to be more visible with background color, more border, with margins to have it in the middle of the page */
+.indicators {
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    border-radius: 50%;
+    margin-top: 260px;
+    margin: 20%;
+}

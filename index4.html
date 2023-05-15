@@ -1,0 +1,140 @@
+<!--  html webpage -->
+
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Other pictures webpage</title>
+
+        <!-- Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+
+        <!-- My CSS -->
+        <link href="styles.css" rel="stylesheet">
+
+        <!-- My JS-->
+        <script src="index.js"></script>
+    </head>
+    <!-- Set background color to powderblue-->
+    <body style="background-color:powderblue;">
+        <!-- Boostrap from https://getbootstrap.com/docs/5.3/layout/grid/#example -->
+        <div>
+            <div class="row">
+
+                <div class="col">
+
+                    <!-- Title of subpage -->
+                    <h1 class="title margins text-center"><b>More Photos!</b></h1>
+
+                    <!-- https://www.w3schools.com/w3css/w3css_icons.asp -->
+                    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+                    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+                    <p class="text-center">
+                        <!-- Button to go back to homepage -->
+                        <!-- https://www.w3schools.com/html/tryit.asp?filename=tryhtml_links_button_element -->
+                        <button onclick="document.location='index.html'" class="w3-btn w3-powderblue w3-xlarge"><i class="fa fa-home"></i></button>
+                    </p>
+
+                    <!-- Navigate to other pages -->
+                    <a href="index2.html">
+                        Cats!
+                    </a>
+                    <br>
+                    <a href="index3.html">
+                        Horse!
+                    </a>
+
+                    <!-- https://getbootstrap.com/docs/5.0/components/carousel/ -->
+                    <!-- Carousel images with buttons and captions!! -->
+                    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                            <img class="center" src="media/Cassis_cover.jpg" alt="Cassis_cover" width="700" height="580">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Cassis, France Hike</h5>
+                            </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img class="center" src="media/sunset_water.jpg" alt="sunset_water" width="700" height="580">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Cape Cod Sunset</h5>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img class="center" src="media/beach.jpg" alt="beach" width="700" height="580">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Cape Cod Beach</h5>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img class="center" src="media/Cape_Cod.jpg" alt="Cape_Cod" width="700" height="580">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Cape Cod Ocean</h5>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img class="center" src="media/snow_sunset.jpg" alt="snow_sunset" width="700" height="580">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Snow Sunset</h5>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img class="center" src="media/snow.jpg" alt="snow" width="700" height="580">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Snow Day</h5>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img class="center" src="media/boston.jpg" alt="boston" width="700" height="580">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Boston</h5>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img class="center" src="media/connecticut_river.jpg" alt="connecticut_river" width="700" height="580">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Connecticut River Run</h5>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img class="center" src="media/gile.jpg" alt="gile" width="700" height="580">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Gile Mountain Hike</h5>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img class="center" src="media/Cassis_sign.jpg" alt="Cassis_sign" width="700" height="580">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Cassis, France Sign</h5>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img class="center" src="media/Cassis_tree.jpg" alt="Cassis_tree" width="700" height="580">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Cassis, France Tree</h5>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- https://getbootstrap.com/docs/5.0/components/carousel/ -->
+                        <!-- Create carousel control buttons to go to previous slides and to next slides-->
+                        <button class="carousel-control-prev indicators" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          </button>
+                          <button class="carousel-control-next indicators" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          </button>
+                        </div>
+                    <br>
+                </div>
+            </div>
+            </div>
+
+        <!-- Bootstrap JS -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    </body>
+</html>

@@ -1,0 +1,87 @@
+<!-- Cats html webpage -->
+
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Cats webpage</title>
+
+        <!-- Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+
+        <!-- My CSS -->
+        <link href="styles.css" rel="stylesheet">
+
+        <!-- My JS-->
+        <script src="index.js"></script>
+    </head>
+    <body style="background-color:powderblue;">
+        <!-- Boostrap from https://getbootstrap.com/docs/5.3/layout/grid/#example -->
+        <div>
+            <div class="row">
+
+                <div class="col">
+                    <!-- Title of subpage -->
+                    <h1 class="title margins text-center"><b>Cats!</b></h1>
+
+                    <!-- https://www.w3schools.com/w3css/w3css_icons.asp -->
+                    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+                    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+                    <p class="text-center">
+                        <!-- Button to go back to homepage -->
+                        <!-- https://www.w3schools.com/html/tryit.asp?filename=tryhtml_links_button_element -->
+                        <button onclick="document.location='index.html'" class="w3-btn w3-powderblue w3-xlarge"><i class="fa fa-home"></i></button>
+                    </p>
+
+                    <!-- Navigate to other pages -->
+                    <!-- https://www.programminghead.com/submit-button-redirect-to-another-page-in-html (used in other html files)-->
+                    <a href="index3.html">
+                        Horse!
+                    </a>
+                    <br>
+                    <a href="index4.html">
+                        Other Photos!
+                    </a>
+
+                    <!-- Cats cover photo -->
+                    <img class="center" src="media/both_porch.JPG" alt="both_porch" width="730" height="600">
+
+                    <!-- Scamper heading and description -->
+                    <h1 class="margins">Scamper</h1>
+                    <p class="margins">Scamper is about 12 years old and is a gray tiger cat. She is very shy but loves tummy rubs.</p>
+
+                    <!-- Scamper images -->
+                    <br>
+                    <img class="margins" src="media/Scamper1.jpg" alt="Scamper1" width="600" height="500">
+                    <img class="margins" src="media/Scamper_bed.JPEG" alt="Scamper_bed" width="370" height="450">
+                    <img class="margins" src="media/Scamper_classicaldynamics.JPG" alt="Scamper_class.dynamics" width="300" height="450">
+                    <img class="margins" src="media/Scamper_porch.JPG" alt="Scamper_porch" width="370" height="450">
+                    <img class="margins" src="media/Scamper_puzzle.JPEG" alt="Scamper_puzzle" width="425" height="500">
+
+                    <hr>
+
+                    <!-- Syver heading and description-->
+                    <h1 class="margins">Syver</h1>
+                    <p class="margins">Syver is also about 12 years old, and is Scamper's half sister. She really adheres to the "where she fits she sits" idea.</p>
+                    <br>
+
+                    <!-- Syver images -->
+                    <img class="margins" src="media/Syver_box.jpg" alt="Syver_box" width="300" height="500">
+                    <img class="margins" src="media/Syver_pillows.JPG" alt="Syver_pillows" width="500" height="600">
+                    <img class="margins" src="media/Syver_suitcase.JPG" alt="Syver_suitcase" width="500" height="600">
+                    <img class="margins" src="media/Syver_xmas.JPG" alt="Syver_xmas" width="400" height="460">
+
+                </div>
+            </div>
+            </div>
+
+            <br>
+
+        <!-- Bootstrap JS -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    </body>
+</html>
